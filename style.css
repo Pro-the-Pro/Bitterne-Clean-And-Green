@@ -88,3 +88,57 @@ img {
   flex-wrap: wrap;
   margin-top: 20px;
 }
+.fourm {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #00ffff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.15);
+    text-align: center;
+}
+
+/* spacing for each row */
+.fourm p {
+    margin-bottom: 15px;
+}
+
+/* label styling */
+.fourm label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* inputs + textarea */
+.fourm .text-input,
+.fourm textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #0f9b00d5;
+    border-radius: 6px;
+    font-size: 16px;
+    box-sizing: border-box;
+    background: #ffffff;
+}
+
+/* focus effect */
+.fourm .text-input:focus,
+.fourm textarea:focus {
+    border-color: #004400;
+    outline: none;
+}
+
+/* submit button */
+.fourm button {
+    background: #009797;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: 600;
+}
+
