@@ -39,10 +39,18 @@
         <input class="text-input" type="datetime-local" name="datetime" required></label>
     </p>
 
-
     <p>
-        <label>Additional Information<br>
-        <textarea class="text-input" name="message" required></textarea></label>
+        <label for="job">What job do you need done?
+        <select class="text-input" name="job" id="job" required>
+          <option value="">--Please choose an option--</option>
+          <option value="exWashRinceDry">Exterior Wash Rince & Dry £10</option>
+          <option value="exDeepClean">Exterior Deep Clean £13</option>
+          <option value="inVaccum">Interior Vaccum £6</option>
+          <option value="inDeepClean">Interior Deep Clean (Vaccum + Dashboard & Windows) £10</option>
+          <option value="CarDeepClean">Whole Car Deep Clean £22</option>
+
+        </label>
+        
     </p>
 
     <input type="hidden" name="_redirect" value="thankyou.html">
